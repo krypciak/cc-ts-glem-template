@@ -1,11 +1,11 @@
 {
-    "id": "cc-ts-template-esbuild",
+    "id": "cc-ts-gleam-template",
     "version": "0.0.1",
-    "title": "ts template esbuild",
+    "title": "ts gleam template",
     "description": "Example mod skeleton",
-    "repository": "https://github.com/krypciak/cc-ts-template-esbuild",
+    "repository": "https://github.com/krypciak/cc-ts-glem-template",
     "tags": ["QoL", "character", "combat arts", "maps", "boss", "puzzle", "ng+", "cosmetic", "fun", "cheats", "speedrun", "accessibility", "dev", "library"],
-    "authors": "",
+    "authors": "krypek",
     "icons": {
         "24": "icon/icon.png"
     },

@@ -1,5 +1,5 @@
 {
-    "name": "cc-ts-template-esbuild",
+    "name": "cc-ts-gleam-template",
     "version": "0.0.1",
     "scripts": {
         "start": "npx ts-node esbuild.ts start",
@@ -19,9 +19,7 @@
         "prettier": "3.2.4",
         "ts-node": "^10.9.2",
         "typescript": "^5.3.3",
-        "ultimate-crosscode-typedefs": "github:krypciak/ultimate-crosscode-typedefs"
-    },
-    "dependencies": {
+        "ultimate-crosscode-typedefs": "github:krypciak/ultimate-crosscode-typedefs",
         "chokidar": "^3.6.0"
     }
 }
