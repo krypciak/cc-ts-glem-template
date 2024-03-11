@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD013 MD024 MD001 MD045 -->
 
-# Example typescript CrossCode mod with [gleam](https://gleam.run/)
+# Example Typescript CrossCode mod with [Gleam](https://gleam.run/)
 
 ## Building
 
