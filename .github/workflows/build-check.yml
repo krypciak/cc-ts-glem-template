@@ -14,9 +14,11 @@ jobs:
         steps:
             # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
             - uses: actions/checkout@v2
+
+            - name: Setup Gleam
+              uses: gleam-lang/setup-gleam@v1.0.2
             
-            - name: Install dependencies
-              run: sudo apt update; sudo apt install npm
+            - uses: actions/setup-node@v4
 
             - name: Compile
               run: npm install; npm run start

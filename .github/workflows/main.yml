@@ -30,8 +30,10 @@ jobs:
                   exit 1
                 fi
 
-            - name: Install dependencies
-              run: sudo apt update; sudo apt install npm
+            - name: Setup Gleam
+              uses: gleam-lang/setup-gleam@v1.0.2
+
+            - uses: actions/setup-node@v4
 
             - name: Update package.json and ccmod.json
               run: | 
