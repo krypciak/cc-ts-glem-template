@@ -11,8 +11,7 @@ jobs:
         runs-on: ubuntu-latest
 
         steps:
-            # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-            - uses: actions/checkout@v2
+            - uses: actions/checkout@v4
 
             - name: Check commit message
               id: check_commit_message
@@ -30,8 +29,10 @@ jobs:
                   exit 1
                 fi
 
-            - name: Setup Gleam
-              uses: gleam-lang/setup-gleam@v1.0.2
+            - uses: erlef/setup-beam@v1
+              with:
+                otp-version: '26'
+                gleam-version: '1.0.0'
 
             - uses: actions/setup-node@v4
 
